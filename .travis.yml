@@ -1,0 +1,7 @@
+---
+language: minimal
+services:
+- docker
+script:
+- docker run --rm -ti -v `pwd`:/src centos:7 curl -o /src/script.liq https://raw.githubusercontent.com/savonet/liquidsoap/master/examples/radio.liq
+- docker run --rm -ti -v `pwd`:/var/lib/liquidsoap radiorabe/liquidsoap --check script.liq
