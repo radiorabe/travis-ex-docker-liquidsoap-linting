@@ -8,7 +8,7 @@ which is in itself based on the [RaBe Liquidsoap Distribution (RaBe-LSD)](https:
 
 ## Usage
 
-Be inspired by this repos [.travis.yml](./travis.yml) and copy paste the parts you need to your own projects `.travis.yml`.
+Be inspired by this repos [.travis.yml](./.travis.yml) and copy paste the parts you need to your own projects `.travis.yml`.
 
 Have a look at this projects [travis page](https://travis-ci.org/radiorabe/travis-ex-docker-liquidsoap-linting) where we have
 configured weekly build so there are always some recent builds. This can also help catch errors in liquidsoap
